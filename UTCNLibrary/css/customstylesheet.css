@@ -1,0 +1,26 @@
+﻿#wrapper {
+    min-height: 100vh;
+}
+
+.footerlinks {
+    color: #ffffff;
+    text-decoration: none !important;
+}
+
+.footerlinks:hover {
+    color: #ffd800;
+}
+
+#footer1 {
+    background: #997950;
+}
+
+#footer2 {
+    background: #6F4E37;
+}
+
+.custom-color {
+    background-color: #80669d; /* Setează culoarea de fundal */
+    color: #ffffff; /* Setează culoarea textului */
+}
+}

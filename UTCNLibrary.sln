@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTCNLibrary", "UTCNLibrary\UTCNLibrary.csproj", "{1DA8BEC5-666D-4E8B-848A-7B425BFA2382}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DA8BEC5-666D-4E8B-848A-7B425BFA2382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DA8BEC5-666D-4E8B-848A-7B425BFA2382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DA8BEC5-666D-4E8B-848A-7B425BFA2382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DA8BEC5-666D-4E8B-848A-7B425BFA2382}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26398992-42C4-4690-BDBE-5793210538E5}
+	EndGlobalSection
+EndGlobal
