@@ -1,42 +1,50 @@
-# Pasi pentru rulare
+# Steps to Run the Project
 
-## 1. Deschide fisierul ".sln" in Visual Studio.
+## 1. Open the ".sln" file in Visual Studio
 
+---
 
+## 2. Create the database in SQL Server
 
-## 2. Creeaza baza de date in SQL Server
+1. Open SQL Server Management Studio (SSMS)  
+2. Connect to your instance  
+3. Run the scripts from the "bazaDeDate" folder:
 
-1. Deschide SQL Server Management Studio (SSMS)
-2. Conectează-te la instanta ta
-3. Ruleaza scripturile din folderul "bazaDeDate"
+- `creare_baza_date_UTCNLibrary.sql` → creates the database and tables  
+- `populare_date_test_UTCNLibrary.sql` → inserts test data  
 
-- "creare_baza_date_UTCNLibrary.sql" → creează baza de date și tabelele
-- "populare_date_test_UTCNLibrary.sql" → adaugă date de test
+---
 
+## 3. Modify the "web.config" file
 
+Update the connection string according to the SQL Server instance on your computer:
 
-## 3. Modifica fisierul "web.config"
-
-Modifica stringul de conexiune conform instantei SQL de pe calculatorul tau:
-
+```xml
 <connectionStrings>
   <add name="con" 
-       connectionString="Data Source=NUMELE_TAU_PC;Initial Catalog=UTCNLibrary;Integrated Security=True;" 
+       connectionString="Data Source=YOUR_PC_NAME;Initial Catalog=UTCNLibrary;Integrated Security=True;" 
        providerName="System.Data.SqlClient" />
 </connectionStrings>
+```
 
- Află numele calculatorului tău din SSMS → „Server name”.
+You can find your computer's name in SSMS → “Server name”.
 
+---
 
+## 4. Run the application
 
-## 4. Ruleaza aplicatia
+---
 
+## 5. Admin credentials:
 
+- **Username**: `admin`  
+- **Password**: `admin123`
 
-## 5. Date admin:
+---
 
-Username: admin
-Password: admin123
+# Added functionalities:
 
-# Functionalitati inovative adaugate:
-
+- Ability to change a user's status  
+- Notification system for overdue books  
+- Support for multiple genres per book  
+- Book cover image available for each book  
